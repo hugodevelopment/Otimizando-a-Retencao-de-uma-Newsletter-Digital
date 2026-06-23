@@ -58,7 +58,7 @@ Considerando a premissa de negócio de que o disparo ocorre rigorosamente entre 
 
 * O comportamento do leitor é majoritariamente tardio. A barra mais longa é justamente a do perfil "4. Retardatário (Mais de 9h)", que concentra 42.4% de toda a sua base de interações.
 
-* O Cenário: Se somarmos o perfil "3. Almoço" com o "4. Retardatário", temos 69% dos leitores abrindo a newsletter muitas horas após o disparo das 06h00.Apenas 12.8% das pessoas leem o e-mail no "Café da Manhã" (na primeira hora).O Risco de Negócio: Para uma newsletter de notícias diárias, abrir o e-mail mais de 9 horas depois (ou seja, após as 15h00) significa que o conteúdo já está "frio". 
+* O Cenário: Se somarmos o perfil "3. Almoço" com o "4. Retardatário", temos 69% dos leitores abrindo a newsletter muitas horas após o disparo das 06h00.Apenas 12.8% das pessoas leem o e-mail no "Café da Manhã" (na primeira hora).
 
 **Risco: O leitor provavelmente já viu as principais notícias do dia em portais ou redes sociais, o que reduz drasticamente a relevância percebida do produto e aumenta o risco de Churn no longo prazo.**
 
