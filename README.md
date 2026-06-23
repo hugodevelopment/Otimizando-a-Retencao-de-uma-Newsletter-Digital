@@ -39,16 +39,28 @@ Antes de gerar qualquer indicador de negócio, apliquei técnicas rigorosas de m
 ## 📊 Principais Insights de Growth obtidos no Python
 
 ### 1. Matriz de Coorte por Canal de Aquisição
-Ao quebrar a análise de Cohort horizontal utilizando a coluna `acquisition_channel` de e-mail, as métricas revelaram um cenário crítico
+Ao quebrar a análise de Cohort horizontal utilizando a coluna `acquisition_channel` de e-mail, as métricas revelaram um cenário crítico:
+
+<img width="829" height="571" alt="image" src="https://github.com/user-attachments/assets/320d810d-2f88-43d7-b756-d850449fd402" />
+
 
 * Resiliência a Longo Prazo (Safra 2023-01): "A coorte de Janeiro (2023-01) mostra um engajamento fantástico. Mesmo após 7 meses de cadastro (período 7), a retenção volta a atingir 100%. Isso prova que o usuário adquirido via e-mail cria um hábito de leitura sólido e consistente de longo prazo, mantendo o produto vivo na rotina dele.
 
 * "A "Morte" Pós-Período 3 (Safras Recentes): "Nota-se um padrão claro de quebra nas safras de Abril (2023-04) e Maio (2023-05). Elas mantêm um engajamento perfeito até o período 3 e depois morrem completamente para 0%."
 
 ### 2. Análise do Perfil de Leitor (Tempo de Reação)
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/2684d9ca-a8f7-4048-92d4-cbc2cb63af7d" />
+
+
+
 Considerando a premissa de negócio de que o disparo ocorre rigorosamente entre 06h00 e 06h20, a análise de tempo de resposta mostrou que:
-*   Leitores orgânicos concentram-se no perfil **"Café da Manhã"** (abrem em menos de 1 hora após o envio), indicando alto valor de marca e engajamento habitual.
-*   Leitores de anúncios pagos concentram-se no perfil **"Retardatário"** (demoram mais de 9 horas para abrir), apresentando maior probabilidade de Churn nos meses seguintes.
+
+O comportamento do leitor é majoritariamente tardio. A barra mais longa é justamente a do perfil "4. Retardatário (Mais de 9h)", que concentra 42.4% de toda a sua base de interações.
+
+O Cenário: Se somarmos o perfil "3. Almoço" com o "4. Retardatário", temos 69% dos leitores abrindo a newsletter muitas horas após o disparo das 06h00.Apenas 12.8% das pessoas leem o e-mail no "Café da Manhã" (na primeira hora).O Risco de Negócio: Para uma newsletter de notícias diárias, abrir o e-mail mais de 9 horas depois (ou seja, após as 15h00) significa que o conteúdo já está "frio". 
+
+O leitor provavelmente já viu as principais notícias do dia em portais ou redes sociais, o que reduz drasticamente a relevância percebida do produto e aumenta o risco de Churn no longo prazo.
 
 ---
 
