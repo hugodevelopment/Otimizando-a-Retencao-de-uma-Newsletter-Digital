@@ -39,9 +39,11 @@ Antes de gerar qualquer indicador de negócio, apliquei técnicas rigorosas de m
 ## 📊 Principais Insights de Growth obtidos no Python
 
 ### 1. Matriz de Coorte por Canal de Aquisição
-Ao quebrar a análise de Cohort horizontal utilizando a coluna `acquisition_channel`, as métricas revelaram um cenário crítico:
-*   Os usuários adquiridos via **'Email'** e **'Organic'** mantêm uma taxa de retenção linear estável acima de 45% até o Mês 3.
-*   A safra de usuários vindos de **'Paid Search' (Anúncios Pagos)** apresentou uma queda abrupta (vazamento), registrando um Churn de aproximadamente 70% logo no Mês 1. 
+Ao quebrar a análise de Cohort horizontal utilizando a coluna `acquisition_channel` de e-mail, as métricas revelaram um cenário crítico:
+
+* Resiliência a Longo Prazo (Safra 2023-01): "A coorte de Janeiro (2023-01) mostra um engajamento fantástico. Mesmo após 7 meses de cadastro (período 7), a retenção volta a atingir 100%. Isso prova que o usuário adquirido via e-mail cria um hábito de leitura sólido e consistente de longo prazo, mantendo o produto vivo na rotina dele.
+
+* "A "Morte" Pós-Período 3 (Safras Recentes): "Nota-se um padrão claro de quebra nas safras de Abril (2023-04) e Maio (2023-05). Elas mantêm um engajamento perfeito até o período 3 e depois morrem completamente para 0%."
 
 ### 2. Análise do Perfil de Leitor (Tempo de Reação)
 Considerando a premissa de negócio de que o disparo ocorre rigorosamente entre 06h00 e 06h20, a análise de tempo de resposta mostrou que:
